@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos NBA</title>
+    <link rel="shorcut icon" href="NBA/Nuevo_Logo_Pagina.png">
+    <link rel="stylesheet" href="equipos.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header__superior">
+            <div class="logo">
+                <img src="NBA/NBA-Logo.png" alt="">
+            </div>
+            <div class="search">
+                <input type="search" placeholder="¿Que desea buscar?">
+            </div>
+    </div>
+    <div class="container_menu">
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="selected"></a></li>
+                    <li><a href="#">Equipos</a>
+                        <ul>
+                            <li><a href="conferencia_oeste.html">Conferencia Oeste</a></li>
+                            <li><a href="conferencia_este.html">Conferencia Este</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Calendario</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    </header>
+
+    <main>
+        <table class="tabla_nba" border="5">
+            <tr>
+                <th class="titulo_nba" colspan="2">LA NBA SE DIVIDE EN DOS CONFERENCIAS</th>
+            </tr>
+            <tr>
+                <th class="conferencia_oeste" rowspan="4">
+                    CONFERENCIA OESTE
+                    <img src="NBA/Conferencia Oeste.png" alt="Imagen Conferencia Oeste">
+                    <p>La conferencia oeste esta compuesta por 15 equipos</p>
+                    <button class="boton"><a href="conferencia_oeste.html">VER EQUIPOS</a></button>
+                </th>
+                <th class="conferencia_este" rowspan="4">
+                    CONFERENCIA ESTE
+                    <img src="NBA/Conferencia Este.png" alt="Imagen Conferencia Este">
+                    <p>La conferencia este esta compuesta por 15 equipos</p>
+                    <button class="boton"><a href="conferencia_este.html">VER EQUIPOS</a></button>
+                </th>
+            </tr>
+        </table>
+    </main>
+
+</body>
+</html>

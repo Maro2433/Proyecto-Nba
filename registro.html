@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA SITE</title>
+    <title>REGISTRARME</title>
     <link rel="shorcut icon" href="NBA/Nuevo_Logo_Pagina.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registro.css">
 </head>
 <body>
     
@@ -23,7 +23,7 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="#" id="selected"></a></li>
+                        <li><a href="index.html"></a></li>
                         <li><a href="equipos.html">Equipos</a>
                             <ul>
                                 <li><a href="conferencia_oeste.html">Conferencia Oeste</a></li>
@@ -32,13 +32,33 @@
                         </li>
                         <li><a href="#">Noticias</a></li>
                         <li><a href="#">Calendario</a></li>
-                        <li><a href="login.html">Iniciar Sesión</a></li>
+                        <li><a href="login.html" id="selected">Iniciar Sesión</a></li>
                     </ul>
                 </nav>
             </div>
 
         </div>
     </header>
+
+    <main>
+
+        <div class="registro">
+            
+            <h3>REGISTRO</h3>
+
+            <form method="get">
+                <input type="text" placeholder="INGRESE SU NOMBRE" required class="nombre">
+                <input type="text" placeholder="INGRESE SU APELLIDO" required class="apellido">
+                <input type="email" placeholder="INGRESE CORREO" required class="correo">
+                <input type="password" placeholder="INGRESE CONTRASEÑA" required class="contraseña">
+                <input type="password" placeholder="INGRESE NUEVAMENTE LA CONTRASEÑA" required class="contraseña">
+                <input type="number" min="15" max="99" placeholder="INGRESE SU EDAD" class="edad">
+                <input type="checkbox" class="condiciones"><p>acepto las condiciones del servicio y la politica de privacidad de nba site</p>
+                <input type="submit" value="REGISTRARME" class="boton">
+            </form>
+        </div>
+
+    </main>
 
 </body>
 </html>

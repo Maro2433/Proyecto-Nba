@@ -153,3 +153,105 @@ nav ul li ul li a:hover {
     font-size: 15px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
+
+/*REGISTRAR USUARIOS*/
+
+.registro form {
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    padding: 40px;
+    margin-left: 480px;
+    margin-top: 220px;   
+    border: 2px solid #040D12; 
+    border-radius: 3%;
+    background-color: #FEFFAC;
+}
+
+.registro h3 {
+    display: flex;
+    position: relative;
+    width: 400px;
+    top: 260px;
+    left: 640px;
+    padding: 10px;
+}
+
+.registro input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.nombre {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.apellido {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.correo {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contraseña {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.edad {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.condiciones {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.registro p {
+    display: flex;
+    position: relative;
+    bottom: 17px;
+    left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.boton {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    transition: all 300ms ease;
+    background-color: #93B1A6;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}

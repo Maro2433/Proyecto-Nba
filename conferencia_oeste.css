@@ -15,6 +15,7 @@ header {
     top: 0;
     left: 0;
     background: #040D12;
+    z-index: 10;
 }
 
 /*Header Superior*/
@@ -150,6 +151,386 @@ nav ul li ul li a:hover {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
+
+/*Titulo*/
+
+.titulo_principal {
+    display: flex;
+    position: relative;
+    margin-top: 250px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
 /*CARDS CONFERENCIA OESTE*/
 
+.container_cards {
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
 
+.card_denver {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_denver h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_denver img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_mavericks {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_mavericks h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_mavericks img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_warriors {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_warriors h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_warriors img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_houston {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_houston h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_houston img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_clippers {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_clippers h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_clippers img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_lakers {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_lakers h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_lakers img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_memphis {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_memphis h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_memphis img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_minnesota {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_minnesota h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_minnesota img {
+    display: flex;
+    position: relative;
+    right: 100px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_pelicans {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_pelicans h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_pelicans img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_oklahoma {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_oklahoma h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_oklahoma img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 100px;
+    width: 190px;
+    height: 120px;
+}
+
+.card_suns {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_suns h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_suns img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_portland {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_portland h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_portland img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_kings {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_kings h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_kings img {
+    display: flex;
+    position: relative;
+    right: 80px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_spurs {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_spurs h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_spurs img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_jazz {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_jazz h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_jazz img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}

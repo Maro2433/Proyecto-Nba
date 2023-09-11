@@ -15,6 +15,7 @@ header {
     top: 0;
     left: 0;
     background: #040D12;
+    z-index: 10;
 }
 
 /*Header Superior*/
@@ -148,4 +149,385 @@ nav ul li ul li a:hover {
     padding-left: 30px;
     font-size: 15px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.titulo_principal {
+    display: flex;
+    position: relative;
+    margin-top: 250px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+/*CARDS CONFERENCIA OESTE*/
+
+.container_cards {
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.card_haws {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_haws h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_haws img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_celtics {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_celtics h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_celtics img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_nets {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_nets h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_nets img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_hornets {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_hornets h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_hornets img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_bulls {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_bulls h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_bulls img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_cleveland {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_cleveland h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_cleveland img {
+    display: flex;
+    position: relative;
+    right: 70px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_pistons {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_pistons h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_pistons img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 70px;
+    width: 200px;
+    height: 150px;
+}
+
+.card_pacers {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_pacers h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_pacers img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_heat {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_heat h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_heat img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_bucks {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_bucks h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_bucks img {
+    display: flex;
+    position: relative;
+    right: 60px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_knicks {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_knicks h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_knicks img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_magic {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_magic h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_magic img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_76ers {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_76ers h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_76ers img {
+    display: flex;
+    position: relative;
+    right: 80px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_raptors {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_raptors h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_raptors img {
+    display: flex;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.card_wizards {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.card_wizards h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_wizards img {
+    display: flex;
+    position: relative;
+    right: 80px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
 }

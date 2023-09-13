@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lora', serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     text-decoration: none;
 }
 
@@ -153,3 +152,93 @@ nav ul li ul li a:hover {
     font-size: 15px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
+
+/*MAIN*/
+
+.principal {
+    text-transform: uppercase;
+    position: relative;
+    top: 230px;
+    text-align: center;
+    padding: 10px;
+}
+
+.video {
+    display: flex;
+    position: relative;
+    left: 400px;
+    border: 2px solid #040D12;
+}
+
+.eventos {
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+    left: 40px;
+    border: 2px solid #040D12;
+    border-radius: 3%;
+    width: 430px;
+}
+
+.eventos h3 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.eventos h3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    color: #0074C7;
+}
+
+.eventos > ul > li {
+    display: flex;
+    margin-left: 30px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.eventos:hover {
+    box-shadow: 0px 10px 0px 10px  rgba(0, 0, 0, 0.5);
+}
+
+.eventos > ul > li:hover {
+    color: #0074C7;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: block;
+    margin-top: 400px;
+    background-color: #040D12;
+}
+
+.footer p {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    padding: 20px;
+}
+
+.footer div {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer div:hover {
+    transition: all 300ms ease;
+    transform: scale(1.1);
+}
+

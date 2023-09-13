@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lora', serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     text-decoration: none;
 }
 
@@ -293,7 +292,7 @@ nav ul li ul li a:hover {
 .card_hornets img {
     display: flex;
     position: relative;
-    right: 60px;
+    right: 50px;
     margin-top: 50px;
     width: 200px;
     height: 200px;
@@ -324,7 +323,7 @@ nav ul li ul li a:hover {
 .card_bulls img {
     display: flex;
     position: relative;
-    right: 50px;
+    right: 48px;
     margin-top: 50px;
     width: 200px;
     height: 200px;
@@ -355,7 +354,7 @@ nav ul li ul li a:hover {
 .card_cleveland img {
     display: flex;
     position: relative;
-    right: 70px;
+    right: 50px;
     margin-top: 50px;
     width: 200px;
     height: 200px;
@@ -448,7 +447,7 @@ nav ul li ul li a:hover {
 .card_heat img {
     display: flex;
     position: relative;
-    right: 50px;
+    right: 20px;
     margin-top: 50px;
     width: 200px;
     height: 200px;
@@ -479,7 +478,7 @@ nav ul li ul li a:hover {
 .card_bucks img {
     display: flex;
     position: relative;
-    right: 60px;
+    right: 50px;
     margin-top: 50px;
     width: 200px;
     height: 200px;
@@ -572,7 +571,7 @@ nav ul li ul li a:hover {
 .card_76ers img {
     display: flex;
     position: relative;
-    right: 80px;
+    right: 50px;
     margin-top: 50px;
     width: 200px;
     height: 200px;
@@ -634,8 +633,40 @@ nav ul li ul li a:hover {
 .card_wizards img {
     display: flex;
     position: relative;
-    right: 80px;
+    right: 50px;
     margin-top: 50px;
     width: 200px;
     height: 200px;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: block;
+    margin-top: 150px;
+    background-color: #040D12;
+}
+
+.footer p {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    padding: 20px;
+}
+
+.footer div {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer div:hover {
+    transition: all 300ms ease;
+    transform: scale(1.1);
 }

@@ -210,11 +210,32 @@ nav ul li ul li a:hover {
     color: #0074C7;
 }
 
+.trofeos {
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+    top: -150px;
+    margin-left: 500px;
+    padding: 20px;
+}
+
+.categorias th {
+    padding: 10px;
+}
+
+.categorias td {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
 /*FOOTER*/
 
 .footer {
     display: block;
-    margin-top: 400px;
+    margin-top: 100px;
     background-color: #040D12;
 }
 

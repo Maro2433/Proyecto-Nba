@@ -643,6 +643,16 @@ nav ul li ul li a:hover {
     height: 200px;
 }
 
+/*Botón Volver*/
+
+.btn-volver{
+    position: relative;
+    top: 100px;
+    left: 620px;
+    padding: 10px;
+    width: 140px;
+}
+
 /*FOOTER*/
 
 .footer {

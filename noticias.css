@@ -155,10 +155,79 @@ nav ul li ul li a:hover {
 
 /*Contenido Principal*/
 
+h1{
+    margin-top: 220px;
+    text-align: center;
+}
+
+.container-noticias{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: #E8F9FD;
+    width: 60%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.notis{
+    display: flex;
+    cursor: pointer;
+}
+
+.notis img{
+    width: 200px;
+}
+
+.content-notis{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+    width: 60%;
+}
+
+.content-notis h4{
+    text-transform: uppercase;
+}
+
+.content-notis p{
+    width: 500px;
+}
+
+aside{
+    height: 10px;
+}
+
+.container-aside{
+    position: relative;
+    left: 950px;
+    top: -1000px;
+    width: 20%;
+    background-color: #E8F9FD;
+}
+
+.stories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 10px;
+    padding: 20px;
+    border-bottom: 2px solid #F0F0F0;
+}
+
+.stories a{
+    text-decoration: none;
+    color: black;
+}
+
+
 /*FOOTER*/
 
 .footer {
-    margin-top: 100px;
+    margin-top: 70px;
     background-color: #040D12;
 }
 

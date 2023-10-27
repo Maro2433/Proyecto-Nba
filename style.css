@@ -166,7 +166,8 @@ nav ul li ul li a:hover {
 .video {
     display: flex;
     position: relative;
-    left: 400px;
+    left: 380px;
+    top: 10px;
     border: 2px solid #040D12;
 }
 

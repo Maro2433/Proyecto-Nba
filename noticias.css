@@ -165,10 +165,11 @@ h1{
     flex-direction: column;
     margin-left: 60px;
     margin-top: 20px;
-    background-color: #E8F9FD;
+    background-color: #8fdfc2;
     width: 60%;
     gap: 20px;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .notis{
@@ -194,7 +195,7 @@ h1{
 }
 
 .content-notis p{
-    width: 500px;
+    width: 100%;
 }
 
 aside{
@@ -206,7 +207,8 @@ aside{
     left: 950px;
     top: -1000px;
     width: 20%;
-    background-color: #E8F9FD;
+    background-color: #8fdfc2;
+    border-radius: 5px;
 }
 
 .stories{
@@ -252,6 +254,5 @@ aside{
 
 .footer div:hover {
     transition: all 300ms ease;
-    transform: scale(1.1);
 }
 

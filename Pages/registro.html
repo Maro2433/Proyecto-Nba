@@ -3,63 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipos NBA</title>
-    <link rel="shorcut icon" href="NBA/Nuevo_Logo_Pagina.png">
-    <link rel="stylesheet" href="equipos.css">
+    <title>REGISTRARME</title>
+    <link rel="shorcut icon" href="../Assets/Imagenes/Nuevo_Logo_Pagina.png">
+    <link rel="stylesheet" href="registro.css">
 </head>
 <body>
     
     <header>
         <div class="header__superior">
-            <div class="logo">
-                <img src="NBA/NBA-Logo.png" alt="">
-            </div>
-            <div class="search">
-                <input type="search" placeholder="¿Que desea buscar?">
-            </div>
-    </div>
-    <div class="container_menu">
-
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html"></a></li>
-                    <li><a href="#" id="selected">Equipos</a>
-                        <ul>
-                            <li><a href="conferencia_oeste.html">Conferencia Oeste</a></li>
-                            <li><a href="conferencia_este.html">Conferencia Este</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="noticias.html">Noticias</a></li>
-                    <li><a href="tienda.html">Tienda</a></li>
-                    <li><a href="login.html">Iniciar Sesión</a></li>
-                </ul>
-            </nav>
+                <div class="logo">
+                    <img src="../Assets/Imagenes/NBA-Logo.png" alt="">
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="¿Que desea buscar?">
+                </div>
         </div>
+        <div class="container_menu">
 
-    </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="/index.html"></a></li>
+                        <li><a href="./equipos.html">Equipos</a>
+                            <ul>
+                                <li><a href="./conferencia_oeste.html">Conferencia Oeste</a></li>
+                                <li><a href="./conferencia_este.html">Conferencia Este</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./noticias.html">Noticias</a></li>
+                        <li><a href="./tienda.html">Tienda</a></li>
+                        <li><a href="./login.html" id="selected">Iniciar Sesión</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
     </header>
 
     <main>
-        <table class="tabla_nba">
-            <tr>
-                <th class="titulo_nba" colspan="2">LA NBA SE DIVIDE EN DOS CONFERENCIAS</th>
-            </tr>
-            <tr>
-                <th class="conferencia_oeste" rowspan="4">
-                    CONFERENCIA OESTE
-                    <img src="NBA/Conferencia Oeste.png" alt="Imagen Conferencia Oeste">
-                    <p>La conferencia oeste esta compuesta por 15 equipos</p>
-                    <button class="boton"><a href="conferencia_oeste.html">VER EQUIPOS</a></button>
-                </th>
-                <th class="conferencia_este" rowspan="4">
-                    CONFERENCIA ESTE
-                    <img src="NBA/Conferencia Este.png" alt="Imagen Conferencia Este">
-                    <p>La conferencia este esta compuesta por 15 equipos</p>
-                    <button class="boton"><a href="conferencia_este.html">VER EQUIPOS</a></button>
-                </th>
-            </tr>
-        </table>
+
+        <div class="registro">
+            <form method="get">
+                <h3>REGISTRO</h3>
+                <input type="text" placeholder="INGRESE SU NOMBRE" required class="nombre">
+                <input type="text" placeholder="INGRESE SU APELLIDO" required class="apellido">
+                <input type="email" placeholder="INGRESE CORREO" required class="correo">
+                <input type="password" placeholder="INGRESE CONTRASEÑA" required class="contraseña">
+                <input type="password" placeholder="INGRESE NUEVAMENTE LA CONTRASEÑA" required class="contraseña">
+                <input type="number" min="15" max="99" placeholder="INGRESE SU EDAD" class="edad">
+                <input type="checkbox" class="condiciones"><p>acepto las condiciones del servicio y la politica de privacidad de nba site</p>
+                <input type="submit" value="REGISTRARME" class="boton">
+            </form>
+        </div>
+
     </main>
 
     <footer>

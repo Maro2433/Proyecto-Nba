@@ -70,16 +70,16 @@ nav  ul  li {
 }
 
 nav > ul > li:first-child > a {
-    background-image: url(NBA/home.png);
-    background-size: 24px;
+    background-image: url(../Assets/Imagenes/home.png);
+    background-size: 35px;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px 40px;
 }
 
 nav > ul > li:first-child:hover > a {
-    background-image: url(NBA/home.png);
-    background-size: 24px;
+    background-image: url(../Assets/Imagenes/home.png);
+    background-size: 35px;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -153,6 +153,9 @@ nav ul li ul li a:hover {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
+
+/*Titulo*/
+
 .titulo_principal {
     display: flex;
     position: relative;
@@ -172,132 +175,134 @@ nav ul li ul li a:hover {
     left: 200px;
     column-gap: 40px;
     row-gap: 40px;
+    transition: all 300ms ease;
 }
 
-.card_haws {
+.card_denver {
     display: flex;
     width: 300px;
     height: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    border-radius: 3%;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_haws:hover {
+.card_denver:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_haws h3 {
+.card_denver h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_haws img {
+.card_denver img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_celtics {
+.card_mavericks {
     display: flex;
     width: 300px;
     height: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 3%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_celtics:hover {
+.card_mavericks:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_celtics h3 {
+.card_mavericks h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_celtics img {
+.card_mavericks img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_nets {
+.card_warriors {
     display: flex;
     width: 300px;
     height: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 3%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_nets:hover {
+.card_warriors:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_nets h3 {
+.card_warriors h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_nets img {
+.card_warriors img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_hornets {
+.card_houston {
     display: flex;
     width: 300px;
     height: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 3%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_hornets:hover {
+.card_houston:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_hornets h3 {
+.card_houston h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_hornets img {
+.card_houston img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_bulls {
+.card_clippers {
     display: flex;
     width: 300px;
     height: 300px;
@@ -309,26 +314,26 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_bulls:hover {
+.card_clippers:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_bulls h3 {
+.card_clippers h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_bulls img {
+.card_clippers img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_cleveland {
+.card_lakers {
     display: flex;
     width: 300px;
     height: 300px;
@@ -340,26 +345,26 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_cleveland:hover {
+.card_lakers:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_cleveland h3 {
+.card_lakers h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_cleveland img {
+.card_lakers img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_pistons {
+.card_memphis {
     display: flex;
     width: 300px;
     height: 300px;
@@ -371,57 +376,26 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_pistons:hover {
+.card_memphis:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_pistons h3 {
+.card_memphis h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_pistons img {
-    display: flex;
-    width: 200px;
-    height: 150px;
-}
-
-.card_pacers {
-    display: flex;
-    width: 300px;
-    height: 300px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 3%;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-}
-
-.card_pacers:hover {
-    transition: all 300ms ease;
-    transform: scale(1.05);
-    background: #93B1A6;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-.card_pacers h3 {
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-}
-
-.card_pacers img {
+.card_memphis img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_heat {
+.card_minnesota {
     display: flex;
     width: 300px;
     height: 300px;
@@ -433,26 +407,26 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_heat:hover {
+.card_minnesota:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_heat h3 {
+.card_minnesota h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_heat img {
+.card_minnesota img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_bucks {
+.card_pelicans {
     display: flex;
     width: 300px;
     height: 300px;
@@ -464,26 +438,26 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_bucks:hover {
+.card_pelicans:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_bucks h3 {
+.card_pelicans h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_bucks img {
+.card_pelicans img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_knicks {
+.card_oklahoma {
     display: flex;
     width: 300px;
     height: 300px;
@@ -495,26 +469,57 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_knicks:hover {
+.card_oklahoma:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_knicks h3 {
+.card_oklahoma h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_knicks img {
+.card_oklahoma img {
+    display: flex;
+    width: 190px;
+    height: 120px;
+}
+
+.card_suns {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card_suns:hover {
+    transition: all 300ms ease;
+    transform: scale(1.05);
+    background: #93B1A6;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card_suns h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card_suns img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_magic {
+.card_portland {
     display: flex;
     width: 300px;
     height: 300px;
@@ -526,26 +531,26 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_magic:hover {
+.card_portland:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_magic h3 {
+.card_portland h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_magic img {
+.card_portland img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_76ers {
+.card_kings {
     display: flex;
     width: 300px;
     height: 300px;
@@ -557,26 +562,26 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_76ers:hover {
+.card_kings:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_76ers h3 {
+.card_kings h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_76ers img {
+.card_kings img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_raptors {
+.card_spurs {
     display: flex;
     width: 300px;
     height: 300px;
@@ -588,26 +593,26 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_raptors:hover {
+.card_spurs:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_raptors h3 {
+.card_spurs h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_raptors img {
+.card_spurs img {
     display: flex;
     width: 200px;
     height: 200px;
 }
 
-.card_wizards {
+.card_jazz {
     display: flex;
     width: 300px;
     height: 300px;
@@ -619,20 +624,20 @@ nav ul li ul li a:hover {
     gap: 30px;
 }
 
-.card_wizards:hover {
+.card_jazz:hover {
     transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card_wizards h3 {
+.card_jazz h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-.card_wizards img {
+.card_jazz img {
     display: flex;
     width: 200px;
     height: 200px;
@@ -645,8 +650,8 @@ nav ul li ul li a:hover {
     top: 100px;
     left: 620px;
     width: 140px;
-    outline: none;
     border-radius: 5px;
+    outline: none;
 }
 
 .btn-volver a{

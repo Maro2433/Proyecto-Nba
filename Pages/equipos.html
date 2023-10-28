@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONFERENCIA ESTE</title>
-    <link rel="shorcut icon" href="NBA/Nuevo_Logo_Pagina.png">
-    <link rel="stylesheet" href="conferencia_este.css">
+    <title>Equipos NBA</title>
+    <link rel="shorcut icon" href="../Assets/Imagenes/Nuevo_Logo_Pagina.png">
+    <link rel="stylesheet" href="equipos.css">
 </head>
 <body>
     
     <header>
         <div class="header__superior">
             <div class="logo">
-                <img src="NBA/NBA-Logo.png" alt="">
+                <img src="../Assets/Imagenes/NBA-Logo.png" alt="">
             </div>
             <div class="search">
                 <input type="search" placeholder="¿Que desea buscar?">
@@ -23,16 +23,16 @@
         <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="index.html"></a></li>
-                    <li><a href="equipos.html" id="selected">Equipos</a>
+                    <li><a href="/index.html"></a></li>
+                    <li><a href="./equipos.html" id="selected">Equipos</a>
                         <ul>
-                            <li><a href="conferencia_oeste.html">Conferencia Oeste</a></li>
-                            <li><a href="conferencia_este.html">Conferencia Este</a></li>
+                            <li><a href="./conferencia_oeste.html">Conferencia Oeste</a></li>
+                            <li><a href="./conferencia_este.html">Conferencia Este</a></li>
                         </ul>
                     </li>
-                    <li><a href="noticias.html">Noticias</a></li>
-                    <li><a href="tienda.html">Tienda</a></li>
-                    <li><a href="login.html">Iniciar Sesión</a></li>
+                    <li><a href="./noticias.html">Noticias</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                    <li><a href="./login.html">Iniciar Sesión</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,75 +41,25 @@
     </header>
 
     <main>
-
-        <h1 class="titulo_principal">conferencia este</h1>
-
-        <div class="container_cards">
-            <div class="card_haws">
-                <h3>atlanta hawks</h3>
-                <img src="NBA/atlanta-hawks-basketball-club.png" alt="">
-            </div>
-
-            <div class="card_celtics">
-                <h3>boston celtics</h3>
-                <img src="NBA/boston-celtics.png" alt="">
-            </div>
-            <div class="card_nets">
-                <h3>brooklyn nets</h3>
-                <img src="NBA/brooklyn-nets.png" alt="">
-            </div>
-            <div class="card_hornets">
-                <h3>charlotte hornets</h3>
-                <img src="NBA/charlotte-hornets.png" alt="">
-            </div>
-            <div class="card_bulls">
-                <h3>chicago bulls</h3>
-                <img src="NBA/chicago-bulls-removebg-preview.png" alt="">
-            </div>
-            <div class="card_cleveland">
-                <h3>cleveland cavaliers</h3>
-                <img src="NBA/cleveland-cavaliers.png" alt="">
-            </div>
-            <div class="card_pistons">
-                <h3>detroit pistons</h3>
-                <img src="NBA/Detroit-Pistonst-Logo-removebg-preview.png" alt="">
-            </div>
-            <div class="card_pacers">
-                <h3>indiana pacers</h3>
-                <img src="NBA/indiana-pacers-removebg-preview.png" alt="">
-            </div>
-            <div class="card_heat">
-                <h3>miami heat</h3>
-                <img src="NBA/miami-heat-removebg-preview.png" alt="">
-            </div>
-            <div class="card_bucks">
-                <h3>milwaukee bucks</h3>
-                <img src="NBA/milwaukee-bucks.png" alt="">
-            </div>
-            <div class="card_knicks">
-                <h3>new york knicks</h3>
-                <img src="NBA/new-york-knicks.png" alt="">
-            </div>
-            <div class="card_magic">
-                <h3>orlando magic</h3>
-                <img src="NBA/orlando-magic.png" alt="">
-            </div>
-            <div class="card_76ers">
-                <h3>philadelphia 76ers</h3>
-                <img src="NBA/philidephia-ers.png" alt="">
-            </div>
-            <div class="card_raptors">
-                <h3>toronto raptors</h3>
-                <img src="NBA/toronto-raptors.png" alt="">
-            </div>
-            <div class="card_wizards">
-                <h3>washington wizards</h3>
-                <img src="NBA/washington-wizards.png" alt="">
-            </div>
-        </div>
-
-        <button class="btn-volver"><a href="./equipos.html">Volver</a></button>
-
+        <table class="tabla_nba">
+            <tr>
+                <th class="titulo_nba" colspan="2">LA NBA SE DIVIDE EN DOS CONFERENCIAS</th>
+            </tr>
+            <tr>
+                <th class="conferencia_oeste" rowspan="4">
+                    CONFERENCIA OESTE
+                    <img src="../Assets/Imagenes/Conferencia Oeste.png" alt="Imagen Conferencia Oeste">
+                    <p>La conferencia oeste esta compuesta por 15 equipos</p>
+                    <button class="boton"><a href="conferencia_oeste.html">VER EQUIPOS</a></button>
+                </th>
+                <th class="conferencia_este" rowspan="4">
+                    CONFERENCIA ESTE
+                    <img src="../Assets/Imagenes/Conferencia Este.png" alt="Imagen Conferencia Este">
+                    <p>La conferencia este esta compuesta por 15 equipos</p>
+                    <button class="boton"><a href="conferencia_este.html">VER EQUIPOS</a></button>
+                </th>
+            </tr>
+        </table>
     </main>
 
     <footer>

@@ -70,7 +70,7 @@ nav  ul  li {
 }
 
 nav > ul > li:first-child > a {
-    background-image: url(NBA/home.png);
+    background-image: url(../Assets/Imagenes/home.png);
     background-size: 35px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -78,7 +78,7 @@ nav > ul > li:first-child > a {
 }
 
 nav > ul > li:first-child:hover > a {
-    background-image: url(NBA/home.png);
+    background-image: url(../Assets/Imagenes/home.png);
     background-size: 35px;
     background-repeat: no-repeat;
     background-position: center center;

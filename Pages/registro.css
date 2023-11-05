@@ -247,6 +247,7 @@ nav ul li ul li a:hover {
     gap: 20px;
     font-weight: bold;
     text-align: center;
+    cursor: pointer;
 }
 
 .boton:hover {

@@ -43,13 +43,13 @@
     <main>
         
         <div class="formulario">
-            <form method="get">
+            <form id="login-form" method="get">
 
                 <h3>inicio de sesión</h3>
 
-                <input type="email" required placeholder="Ingrese su correo">
-                <input type="password" required placeholder="Ingrese su contraseña">
-                <input type="submit" value="ENTRAR" class="boton">
+                <input type="email" required placeholder="Ingrese su correo" id="email">
+                <input type="password" required placeholder="Ingrese su contraseña" id="password">
+                <input type="button" value="ENTRAR" class="boton" onclick="iniciarSesion()">
 
                <p><a href="registro.html">te falta un usuario? ingresa aquí</a></p>
 
@@ -78,6 +78,8 @@
         
 
     </footer>
+
+    <script src="../Assets/Js/login.js"></script>
 
 </body>
 </html>

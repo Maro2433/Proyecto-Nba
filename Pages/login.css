@@ -177,7 +177,6 @@ nav ul li ul li a:hover {
 }
 
 .formulario input {
-    text-transform: uppercase;
     color: #040D12;
     padding: 10px;
     font-weight: bold;
@@ -193,6 +192,7 @@ nav ul li ul li a:hover {
     margin-left: 120px;
     width: 100px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .boton:hover {

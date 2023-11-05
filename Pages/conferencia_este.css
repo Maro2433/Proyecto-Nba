@@ -174,6 +174,10 @@ nav ul li ul li a:hover {
     row-gap: 40px;
 }
 
+.container_cards a{
+    color: #040D12;
+}
+
 .card_haws {
     display: flex;
     width: 300px;
@@ -184,10 +188,10 @@ nav ul li ul li a:hover {
     gap: 30px;
     border-radius: 3%;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 300ms ease-in-out;
 }
 
 .card_haws:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
 }
@@ -214,10 +218,10 @@ nav ul li ul li a:hover {
     justify-content: center;
     gap: 30px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 300ms ease-in-out;
 }
 
 .card_celtics:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -245,10 +249,10 @@ nav ul li ul li a:hover {
     justify-content: center;
     gap: 30px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 300ms ease-in-out;
 }
 
 .card_nets:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -276,10 +280,10 @@ nav ul li ul li a:hover {
     justify-content: center;
     gap: 30px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 300ms ease-in-out;
 }
 
 .card_hornets:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -307,10 +311,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_bulls:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -338,10 +342,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_cleveland:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -369,10 +373,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_pistons:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -400,10 +404,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_pacers:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -431,10 +435,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_heat:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -462,10 +466,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_bucks:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -493,10 +497,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_knicks:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -524,10 +528,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_magic:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -555,10 +559,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_76ers:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -586,10 +590,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_raptors:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -617,10 +621,10 @@ nav ul li ul li a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    transition: all 300ms ease-in-out;
 }
 
 .card_wizards:hover {
-    transition: all 300ms ease;
     transform: scale(1.05);
     background: #93B1A6;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -647,6 +651,7 @@ nav ul li ul li a:hover {
     width: 140px;
     outline: none;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 .btn-volver a{

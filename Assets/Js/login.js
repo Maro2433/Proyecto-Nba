@@ -11,5 +11,7 @@ function iniciarSesion() {
       email.value = "";
       password.value = "";
 
+  } else {
+    alert("LLene los Campos Faltantes")
   }
 }

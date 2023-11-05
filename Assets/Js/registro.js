@@ -34,5 +34,7 @@ function registrarUsuario() {
     repetirContraseñaCampo.value = "";
     edadCampo.value = "";
     condicionesCheckbox.checked = false;
+  } else {
+    alert("Llene los Campos Faltantes")
   }
 }

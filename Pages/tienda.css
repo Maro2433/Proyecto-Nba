@@ -54,6 +54,12 @@ header {
     height: 100%;
 }
 
+.menu img{
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
 nav {
     height: 100%;
 }
@@ -61,6 +67,7 @@ nav {
 nav > ul {
     height: 100%;
     display: flex;
+    align-items: center;
 }
 
 nav  ul  li {
